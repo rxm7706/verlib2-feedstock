@@ -3,11 +3,18 @@ About verlib2-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/verlib2-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/panodata/verlib2
+Home: https://github.com/pyveci/verlib2
 
 Package license: BSD-2-Clause
 
 Summary: A standalone variant of packaging.version, without anything else.
+
+Development: https://github.com/pyveci/verlib2
+
+A standalone bundle of "distutils.version" and "packaging.version",
+without anything else. verlib2 vendors the version-handling code from
+setuptools/packaging so projects can depend on a stable version parser
+without pulling in the full packaging library.
 
 Current build status
 ====================
@@ -16,7 +23,9 @@ Current build status
 <table><tr>
     <td>All platforms:</td>
     <td>
-      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
+      <a href="https://github.com/conda-forge/verlib2-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/verlib2-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
+      </a>
     </td>
   </tr>
 </table>
